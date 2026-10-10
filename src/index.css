@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    background-color: #190D2B;
+    color: #F7F4EA;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF1C5 0%, #E3C25D 40%, #D4AF37 70%, #B88E18 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #E6C665 0%, #D4AF37 50%, #C19926 100%);
+}
+
+.gold-gradient-border {
+  border-image: linear-gradient(135deg, #D4AF37 0%, rgba(212, 175, 55, 0.2) 100%) 1;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}

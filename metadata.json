@@ -1,0 +1,7 @@
+{
+  "name": "Seeds Hotel Shah Alam Seksyen 7 I-City",
+  "description": "Luxury boutique hotel in Seksyen 7 Shah Alam near I-City. Experience premium comfort, modern rooms, 24/7 hospitality, and verified amenities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
